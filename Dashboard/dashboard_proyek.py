@@ -80,7 +80,7 @@ def create_cluster_df(df):
     return df
 
 
-all_df = pd.read_csv('days_df.csv')
+all_df = pd.read_csv('Dashboard\days_df.csv')
 
 datetime_columns = ['dteday']
 all_df.sort_values(by="dteday", inplace=True)
